@@ -3,12 +3,12 @@
 function scuberGreetingForFeet (ride)
 {
   if (ride <= 400) {
-    return   "free sample"
+    return   "This one is on me!"
   }
   else if (ride > 2000) {
-    return 30
+    return "I will gladly take your thirty bucks."
   }
   else if (ride > 2500) {
-    return "Too Long"
+    return 'No can do.'
   }
 }
